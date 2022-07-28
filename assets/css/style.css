@@ -31,7 +31,10 @@ nav .btn:hover {
     max-width: 550px;
 }
 
+/* Course */
 /* Responsive CSS */
+@media screen and (max-width: 1199px) {}
+
 @media screen and (max-width: 767px) {
     .carousel-captions {
         max-width: 250px;
@@ -56,4 +59,7 @@ nav .btn:hover {
         font-size: 12px;
     }
 
+    .course-item img {
+        width: 100% !important;
+    }
 }
