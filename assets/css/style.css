@@ -12,12 +12,17 @@ body {
 
 }
 
+p {
+    color: #777777;
+    font-size: 16px;
+}
+
 /* Navbar */
 nav .btn:hover {
     background-color: transparent;
 }
 
-/* Banner */
+/* Banner Part Start*/
 .overlay {
     position: absolute;
     top: 0;
@@ -31,9 +36,27 @@ nav .btn:hover {
     max-width: 550px;
 }
 
-/* Course */
+/* Explore Part Start */
+.explore {
+    background-color: #F4FAFD;
+}
+
 /* Responsive CSS */
 @media screen and (max-width: 1199px) {}
+
+@media screen and (max-width: 991px) {
+    p {
+        font-size: 14px;
+    }
+
+    .explore h3 {
+        font-size: 35px;
+    }
+
+    .explore h5 {
+        font-size: 28px;
+    }
+}
 
 @media screen and (max-width: 767px) {
     .carousel-captions {
@@ -44,13 +67,10 @@ nav .btn:hover {
         font-size: 24px;
     }
 
-    .carousel-captions p {
-        font-size: 14px;
-    }
-
 }
 
 @media screen and (max-width: 575px) {
+
     .carousel-captions h2 {
         font-size: 20px;
     }
