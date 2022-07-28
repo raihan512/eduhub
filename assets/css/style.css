@@ -89,6 +89,11 @@ footer .social-link .fa-brands {
 
 @media screen and (max-width: 575px) {
 
+    .carousel-item img {
+        width: auto !important;
+        height: 250px;
+    }
+
     .carousel-captions h2 {
         font-size: 20px;
     }
